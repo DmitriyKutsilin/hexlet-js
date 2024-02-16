@@ -1,6 +1,5 @@
-import _ from "lodash";
-const lastOf = (arr) => {
-  return console.log(_.last(["one", "two"]));
-};
+import _ from 'lodash';
 
-export { lastOf };
+const lastOf = () => console.log(_.last(['one', 'two']));
+
+export default lastOf;
